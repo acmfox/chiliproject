@@ -27,7 +27,7 @@ h2,
   font-size: 20px;
   padding: 2px 10px 1px 0px;
   margin: 0 0 10px 0;
-  border-bottom: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbaa;
 }
 
 h3,
@@ -35,7 +35,7 @@ h3,
   font-size: 16px;
   padding: 2px 10px 1px 0px;
   margin: 0 0 10px 0;
-  border-bottom: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbaa;
 }
 
 h4,
@@ -43,7 +43,7 @@ h4,
   font-size: 13px;
   padding: 2px 10px 1px 0px;
   margin-bottom: 5px;
-  border-bottom: 1px dotted #bbbbbb;
+  border-bottom: 1px dotted #bbbbaa;
 }
 
 h5,
@@ -51,7 +51,7 @@ h5,
   font-size: 11px;
   padding: 2px 10px 1px 0px;
   margin-bottom: 5px;
-  border-bottom: 1px dotted #bbbbbb;
+  border-bottom: 1px dotted #bbbbaa;
 }
 
 /***** Layout *****/
@@ -132,9 +132,9 @@ h5,
 
 #content {
   width: 75%;
-  background-color: #fff;
+  background-color: #ffe;
   margin: 0px;
-  border: 1px #ddd;
+  border: 1px #ddc;
   border-style: none solid solid solid;
   padding: 6px 10px 10px 10px;
   z-index: 10;
@@ -1028,7 +1028,7 @@ div#issue-changesets div.changeset {
 }
 
 div#issue-changesets div.changeset {
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #dde;
 }
 
 div#issue-changesets p {
@@ -1058,11 +1058,11 @@ div#activity dt,
 }
 
 div#activity dt.me .time {
-  border-bottom: 1px solid #999;
+  border-bottom: 1px solid #998;
 }
 
 div#activity dt .time {
-  color: #777;
+  color: #776;
   font-size: 80%;
 }
 
@@ -1079,7 +1079,7 @@ div#activity span.project:after,
 div#activity dd span.description,
 #search-results dd span.description {
   display: block;
-  color: #808080;
+  color: #808070;
 }
 
 #search-results dd {
@@ -1191,7 +1191,7 @@ div#version-summary {
   width: 380px;
   margin-left: 16px;
   margin-bottom: 16px;
-  background-color: #fff;
+  background-color: #ffe;
 }
 
 div#version-summary fieldset {
@@ -1211,19 +1211,19 @@ table#time-report th.total {
 
 table#time-report tbody tr {
   font-style: italic;
-  color: #777;
+  color: #776;
 }
 
 table#time-report tbody tr.last-level {
   font-style: normal;
-  color: #555;
+  color: #554;
 }
 
 table#time-report tbody tr.total {
   font-style: normal;
   font-weight: bold;
   color: #555;
-  background-color: #EEEEEE;
+  background-color: #EEEEdd;
 }
 
 table#time-report .hours-dec {
@@ -1258,7 +1258,7 @@ ul.projects ul {
 }
 
 ul.projects ul.projects {
-  border-left: 3px solid #e0e0e0;
+  border-left: 3px solid #e0e0d0;
 }
 
 ul.projects li.root {
@@ -1587,8 +1587,8 @@ div.flash.warning {
 #ajax-indicator {
   position: absolute;
   /* fixed not supported by IE */
-  background-color: #eee;
-  border: 1px solid #bbb;
+  background-color: #eed;
+  border: 1px solid #bba;
   top: 35%;
   left: 40%;
   width: 20%;
@@ -1617,12 +1617,12 @@ table.cal {
   border-collapse: collapse;
   width: 100%;
   margin: 0px 0 6px 0;
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d7d7c7;
 }
 
 table.cal thead th {
   width: 14%;
-  background-color: #EEEEEE;
+  background-color: #EEEEdd;
   padding: 4px;
 }
 
@@ -1635,13 +1635,13 @@ table.cal tbody tr {
 }
 
 table.cal td {
-  border: 1px solid #d7d7d7;
+  border: 1px solid #d7d7c7;
   vertical-align: top;
   font-size: 0.9em;
 }
 
 table.cal td.week-number {
-  background-color: #EEEEEE;
+  background-color: #EEEEdd;
   padding: 4px;
   border: none;
   font-size: 1em;
@@ -1708,11 +1708,11 @@ div.tooltip:hover span.tip {
   top: 12px;
   left: 24px;
   width: 270px;
-  border: 1px solid #555;
-  background-color: #fff;
+  border: 1px solid #554;
+  background-color: #ffe;
   padding: 4px;
   font-size: 0.8em;
-  color: #505050;
+  color: #505040;
 }
 
 /***** Progress bar *****/
@@ -1740,7 +1740,7 @@ div.tooltip:hover span.tip {
   bottom: 0;
   padding-left: 1em;
   width: 2000px;
-  border-bottom: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbbaa;
 }
 
 #content .tabs ul li {
@@ -1748,7 +1748,7 @@ div.tooltip:hover span.tip {
   list-style-type: none;
   white-space: nowrap;
   margin-right: 8px;
-  background: #fff;
+  background: #ffe;
   position: relative;
   margin-bottom: -1px;
 }
@@ -1760,8 +1760,8 @@ div.tooltip:hover span.tip {
   line-height: 1.3em;
   padding: 4px 6px 4px 6px;
   border: 1px solid #ccc;
-  border-bottom: 1px solid #bbbbbb;
-  background-color: #eeeeee;
+  border-bottom: 1px solid #bbbbaa;
+  background-color: #eeeedd;
   color: #777;
   font-weight: bold;
 }
@@ -1772,13 +1772,13 @@ div.tooltip:hover span.tip {
 }
 
 #content .tabs ul li a.selected {
-  background-color: #fff;
-  border: 1px solid #bbbbbb;
-  border-bottom: 1px solid #fff;
+  background-color: #ffe;
+  border: 1px solid #bbbbaa;
+  border-bottom: 1px solid #ffe;
 }
 
 #content .tabs ul li a.selected:hover {
-  background-color: #fff;
+  background-color: #ffe;
 }
 
 div.tabs-buttons {
@@ -1788,7 +1788,7 @@ div.tabs-buttons {
   height: 24px;
   background: white;
   bottom: 0;
-  border-bottom: 1px solid #bbbbbb;
+  border-bottom: 1px solid #bbbba;
 }
 
 button.tab-left,
@@ -1796,8 +1796,8 @@ button.tab-right {
   font-size: 0.9em;
   cursor: pointer;
   height: 24px;
-  border: 1px solid #ccc;
-  border-bottom: 1px solid #bbbbbb;
+  border: 1px solid #ccb;
+  border-bottom: 1px solid #bbbbaa;
   position: absolute;
   padding: 4px;
   width: 20px;
@@ -1806,12 +1806,12 @@ button.tab-right {
 
 button.tab-left {
   right: 20px;
-  background: #eeeeee url(../images/bullet_arrow_left.png) no-repeat 50% 50%;
+  background: #eeeedd url(../images/bullet_arrow_left.png) no-repeat 50% 50%;
 }
 
 button.tab-right {
   right: 0;
-  background: #eeeeee url(../images/bullet_arrow_right.png) no-repeat 50% 50%;
+  background: #eeeedd url(../images/bullet_arrow_right.png) no-repeat 50% 50%;
 }
 
 /***** Auto-complete *****/
@@ -1835,10 +1835,10 @@ div.autocomplete ul li {
   padding: 2px;
   cursor: pointer;
   font-size: 90%;
-  border: 1px solid #ccc;
-  border-left: 1px solid #ccc;
-  border-right: 1px solid #ccc;
-  background-color: white;
+  border: 1px solid #ccb;
+  border-left: 1px solid #ccb;
+  border-right: 1px solid #ccb;
+  background-color: #ffe;
 }
 
 div.autocomplete ul li.selected {
@@ -1847,7 +1847,7 @@ div.autocomplete ul li.selected {
 
 div.autocomplete ul li span.informal {
   font-size: 80%;
-  color: #aaa;
+  color: #aa9;
 }
 
 #parent_issue_candidates ul li {
@@ -1877,14 +1877,14 @@ div.autocomplete ul li span.informal {
 
 .text-diff {
   padding: 1em;
-  background-color: #f6f6f6;
+  background-color: #f6f6e6;
   color: #505050;
-  border: 1px solid #e4e4e4;
+  border: 1px solid #e4e4d4;
 }
 
 /***** Wiki *****/
 div.wiki table {
-  border: 1px solid #505050;
+  border: 1px solid #505040;
   border-collapse: collapse;
   margin-bottom: 1em;
 }
@@ -1892,7 +1892,7 @@ div.wiki table {
 div.wiki table,
 div.wiki td,
 div.wiki th {
-  border: 1px solid #bbb;
+  border: 1px solid #bbc;
   padding: 4px;
 }
 
@@ -1906,8 +1906,8 @@ div.wiki .external {
 div.wiki pre {
   margin: 1em 1em 1em 1.6em;
   padding: 2px 2px 2px 0;
-  background-color: #fafafa;
-  border: 1px solid #dadada;
+  background-color: #fafaea;
+  border: 1px solid #dadaca;
   width: auto;
   overflow-x: auto;
   overflow-y: hidden;
@@ -1937,7 +1937,7 @@ div.wiki fieldset legend span {
 }
 
 div.wiki fieldset.toc div {
-  background-color: #fff;
+  background-color: #ffe;
 }
 
 div.wiki fieldset.toc.right {
@@ -1991,7 +1991,7 @@ h1:hover a.wiki-anchor,
 h2:hover a.wiki-anchor,
 h3:hover a.wiki-anchor {
   display: inline;
-  color: #ddd;
+  color: #dde;
 }
 
 div.wiki img {
@@ -2000,7 +2000,7 @@ div.wiki img {
 
 /***** My page layout *****/
 .block-receiver {
-  border: 1px dashed #c0c0c0;
+  border: 1px dashed #c0c0b0;
   margin-bottom: 20px;
   padding: 15px 0 15px 0;
 }
@@ -2008,13 +2008,13 @@ div.wiki img {
 .mypage-box {
   margin-top: 20px;
   padding: 0px 10px 0px 10px;
-  border: #C4C4C4 solid 1px;
+  border: #C4C4b4 solid 1px;
   font-size: 11px;
   background: #FFFFFF url(../images/background_widgets.png) repeat-x 0 0;
   /* Shadow definitions cross browser */
-  -moz-box-shadow: 1px 1px 1px #BFBFBF;
-  -webkit-box-shadow: 1px 1px 1px #BFBFBF;
-  box-shadow: 1px 1px 1px #BFBFBF;
+  -moz-box-shadow: 1px 1px 1px #BFBFaF;
+  -webkit-box-shadow: 1px 1px 1px #BFBFaF;
+  box-shadow: 1px 1px 1px #BFBFaF;
   /* For IE 8 */
   -ms-filter: "progid: DXImageTransform.Microsoft.Shadow(Strength=2, Direction=135, Color='#333333')";
   /* For IE 5.5 - 7 */
@@ -2082,9 +2082,9 @@ a.close-icon:hover {
   position: absolute;
   top: 0;
   height: 16px;
-  border-top: 1px solid #c0c0c0;
-  border-bottom: 1px solid #c0c0c0;
-  border-right: 1px solid #c0c0c0;
+  border-top: 1px solid #c0c0b0;
+  border-bottom: 1px solid #c0c0b0;
+  border-right: 1px solid #c0c0b0;
   text-align: center;
   overflow: hidden;
 }
@@ -2133,12 +2133,12 @@ a.close-icon:hover {
 
 .task_todo {
   background: #aaa url(../images/task_todo.png);
-  border: 1px solid #aaa;
+  border: 1px solid #aa9;
 }
 
 .task_todo.parent {
-  background: #888;
-  border: 1px solid #888;
+  background: #887;
+  border: 1px solid #887;
   height: 3px;
 }
 
@@ -2182,8 +2182,8 @@ a.close-icon:hover {
 }
 
 .version.task_todo {
-  background: #fff url(../images/milestone_todo.png);
-  border: 1px solid #fff;
+  background: #ffe url(../images/milestone_todo.png);
+  border: 1px solid #ffe;
   height: 2px;
   margin-top: 3px;
 }
@@ -2211,8 +2211,8 @@ a.close-icon:hover {
 }
 
 .project.task_todo {
-  background: #fff url(../images/milestone_todo.png);
-  border: 1px solid #fff;
+  background: #ffe url(../images/milestone_todo.png);
+  border: 1px solid #ffe;
   height: 2px;
   margin-top: 3px;
 }
@@ -2443,8 +2443,8 @@ a.close-icon:hover {
 
 img.gravatar {
   padding: 2px;
-  border: solid 1px #d5d5d5;
-  background: #fff;
+  border: solid 1px #d5d5c5;
+  background: #ffe;
 }
 
 div.issue table img.gravatar,
@@ -2525,7 +2525,7 @@ h2 img {
  ------------------------------------------------------------------------------*/
 body {
   font: normal normal normal 12px/1.5 arial,'lucida grandriale','lucida sans unicode',tahom,sans-serif;
-  background: #f3f3f3;
+  background: #f3f3e3;
   color: #333;
 }
 
@@ -2668,8 +2668,8 @@ a:hover {
 }
 
 #header li li a:hover {
-  background-color: #FFFFFF;
-  color: #222222;
+  background-color: #FFFFee;
+  color: #222211;
 }
 
 #header li.drop-down li > a:hover,
@@ -2687,7 +2687,7 @@ a:hover {
   -webkit-border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   border-bottom-right-radius: 5px;
-  background-color: #7F7F7F;
+  background-color: #7F7F6F;
   color: #FFFFFF;
 }
 
@@ -2765,16 +2765,16 @@ input: -moz-placeholder {
   z-index: 20;
   border: 1px solid #b7b7b7;
   border-top: 0px;
-  background-color: #FFFFFF;
+  background-color: #FFFFee;
   display:none;
   position:absolute;
   height:auto;
   min-width:200px;
   left:-1px;
   z-index:20;
-  border: 1px solid #b7b7b7;
+  border: 1px solid #b7b7a7;
   border-top: 0px;
-  background-color:#FFFFFF;
+  background-color:#FFFFee;
   overflow: hidden;
   overflow-y: auto;
 }
@@ -2793,9 +2793,9 @@ input: -moz-placeholder {
 
 #header li.drop-down li > a {
   padding: 5px 9px;
-  background: #FFFFFF;
+  background: #FFFFee;
   position: static;
-  color: #222222;
+  color: #222211;
   font-size: 13px;
   font-family: "Arial", Arial, sans-serif;
   font-style: normal;
@@ -2810,15 +2810,15 @@ input: -moz-placeholder {
 }
 
 #header li.drop-down li > a.separator {
-  border-bottom: 1px solid #555555;
+  border-bottom: 1px solid #555544;
 }
 
 #breadcrumb {
   height: 38px;
   line-height: 38px;
   background: url(../images/background_breadcrumb.png) repeat-x left top;
-  border-bottom: 1px #d9d9d9;
-  color: #777777;
+  border-bottom: 1px #d9d9c9;
+  color: #777766;
   padding-left: 15px;
   font-size: 16px;
   font-family: "Arial", Arial, sans-serif;
@@ -2828,7 +2828,7 @@ input: -moz-placeholder {
 
 #breadcrumb a {
   text-decoration: underline;
-  color: #777777;
+  color: #777766;
 }
 
 #nav-search {
@@ -2845,7 +2845,7 @@ input: -moz-placeholder {
   top: 44px;
   right: 0px;
   float: right;
-  background: white;
+  background: #ffe;
   border: 1px solid #194E60;
   border-top: 0;
   padding-left: 5px;
@@ -2886,8 +2886,8 @@ div#optional_login_fields {
 }
 
 #main-menu ul {
-  border-top: 1px solid #ddd;
-  border-bottom: 1px solid #fff;
+  border-top: 1px solid #dde;
+  border-bottom: 1px solid #ffe;
 }
 
 #main-menu ul ul {
@@ -2898,7 +2898,7 @@ div#optional_login_fields {
 }
 
 #main-menu ul ul.menu-children.unattached {
-  border-top: 1px solid #ddd;
+  border-top: 1px solid #dde;
 }
 
 #main-menu ul ul ul {
@@ -2907,28 +2907,28 @@ div#optional_login_fields {
   z-index: 20;
   width: 100%;
   top: 0;
-  border: 1px solid #AFAFAF;
-  background: #f3f3f3;
+  border: 1px solid #AFAF9F;
+  background: #f3f3e3;
 }
 
 #main-menu li {
-  border-top: 1px solid #e2e2e2;
-  border-bottom: 1px solid #f5f5f5;
+  border-top: 1px solid #e2e2d2;
+  border-bottom: 1px solid #f5f5e5;
   position: relative;
   min-height: 23px;
-  background-color: #e9e9e9;
+  background-color: #e9e9d9;
 }
 
 #main-menu li li {
   border: 0;
-  background-color: white;
+  background-color: #ffe;
 }
 
 #main-menu li li li {
   padding: 0;
   width: 100%;
-  border-bottom: 1px solid #DDDDDD;
-  border-top: 1px solid #FFFFFF;
+  border-bottom: 1px solid #DDDDcc;
+  border-top: 1px solid #FFFFee;
 }
 
 #main-menu li li li: first-child {
@@ -2941,7 +2941,7 @@ div#optional_login_fields {
   display: block;
   position: relative;
   height: 23px;
-  color: #333333;
+  color: #333322;
   font-weight: normal;
   font-size: 13px;
   font-family: "Arial", Arial, sans-serif;
@@ -2969,7 +2969,7 @@ div#optional_login_fields {
 
 #main-menu li li a span {
   font-weight: normal;
-  color: #999;
+  color: #998;
   float: right;
   padding-right: 9px;
 }
@@ -3051,7 +3051,7 @@ div#optional_login_fields {
  * This section includes the layout and styles for the main content area.
  ------------------------------------------------------------------------------*/
 #main {
-  background: #f3f3f3;
+  background: #f3f3e3;
   position: relative;
   z-index: 20;
 }
@@ -3123,7 +3123,7 @@ fieldset#filters div.add-filter {
 }
 
 .title-bar-extras {
-  color: #333333;
+  color: #333322;
 }
 
 .title-bar-extras ul {
@@ -3191,12 +3191,12 @@ form#issue-list {
 
 #content table th {
   font-weight: normal;
-  background: #f3f3f3 url(../images/gradient-down.png) repeat-x;
+  background: #f3f3e3 url(../images/gradient-down.png) repeat-x;
 }
 
 #content table.issues td,
 #content table th {
-  border: 1px solid #e6e6e6;
+  border: 1px solid #e6e6d6;
   padding: 6px;
   text-align: left;
   position: relative;
@@ -3204,12 +3204,12 @@ form#issue-list {
 }
 
 #content table th a {
-  color: #111;
+  color: #110;
   text-decoration: none;
 }
 
 #content table th.current-sort {
-  background: #fff url(../images/gradient-up.png) repeat-x;
+  background: #ffe url(../images/gradient-up.png) repeat-x;
 }
 
 #content table th.current-sort a {
@@ -3219,7 +3219,7 @@ form#issue-list {
 }
 
 #content table tr.even {
-  background-color: #f9f9f9;
+  background-color: #f9f9e9;
 }
 
 #content table td.priority {
@@ -3339,7 +3339,7 @@ div.issue h3 {
 }
 
 .gravatar {
-  border: 1px solid #aaa;
+  border: 1px solid #aa9;
 }
 
 .issue p {
@@ -3373,7 +3373,7 @@ table.files {
 }
 
 #content table.files td {
-  color: #555;
+  color: #554;
   padding: 1px;
 }
 
@@ -3391,7 +3391,7 @@ table.files {
 
 #history h3 {
   font-size: 14px;
-  border-bottom: 1px solid #ddd;
+  border-bottom: 1px solid #ddc;
   padding-left: 10px;
   margin-bottom: 20px;
 }
@@ -3419,7 +3419,7 @@ table.files {
 
 .journal h4 .history-id {
   float: right;
-  color: #999;
+  color: #998;
 }
 
 .journal .wiki {
@@ -3495,7 +3495,7 @@ blockquote {
 }
 
 .journal-attributes {
-  color: #999999;
+  color: #999988;
 }
 
 /*-------------------------------------------------------------------------------
@@ -3512,7 +3512,7 @@ blockquote {
 #project-links {
   position: absolute;
   right: 30px;
-  color: #ccc;
+  color: #ccb;
   font-weight: bold;
 }
 
@@ -3611,8 +3611,8 @@ ul.projects li div.root {
 }
 
 .profile-box ul li {
-  border-top: 1px solid #fff;
-  border-bottom: 1px solid #ddd;
+  border-top: 1px solid #ffe;
+  border-bottom: 1px solid #ddc;
   padding: 5px 10px;
 }
 
@@ -3642,7 +3642,7 @@ a.has-thumb img {
   display: none;
   border: 1px solid #a6c6cf;
   padding: 4px;
-  background: #fff;
+  background: #ffe;
   -moz-border-radius: 3px;
   -webkit-border-radius: 3px;
   border-radius: 3px;
@@ -3716,7 +3716,7 @@ td.issue div.issue-wrap-outer {
 }
 
 .title-bar .button-large ul li a:hover {
-  background-color: #fff;
+  background-color: #ffe;
 }
 
 /*-------------------------------------------------------------------------------
@@ -3823,7 +3823,7 @@ ul.projects div.root a.project {
 #sidebar {
   padding: 10px 2px 2px 20px;
   width: auto;
-  color: #888888;
+  color: #888877;
   font-weight: normal;
   font-size: 11px;
   font-family: "Arial", Arial, sans-serif;
@@ -3831,7 +3831,7 @@ ul.projects div.root a.project {
 }
 
 #sidebar h3 {
-  color: #777777;
+  color: #777766;
   font-weight: bold;
   font-size: 12px;
   font-family: "Arial", Arial, sans-serif;
@@ -3890,7 +3890,7 @@ ul.projects div.root a.project {
 
 /* custom query page */
 #content .box fieldset {
-  border: 1px solid #ddd;
+  border: 1px solid #ddc;
   margin: 18px 10px 6px;
   padding: 10px;
 }
@@ -4177,12 +4177,12 @@ a.has-thumb img {
 
 /* Make icons non repeating */
 #more-menu.drop-down ul li a.projects {
-  border-top: 1px solid #555;
+  border-top: 1px solid #554;
 }
 
 /* Adds a simple rounded corner background */
 .rounded-background {
-  background: #E6E5E5;
+  background: #E6E5d5;
   -moz-border-radius: 5px;
   -webkit-border-radius: 5px;
   border-radius: 5px;
